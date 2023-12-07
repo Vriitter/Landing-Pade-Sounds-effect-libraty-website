@@ -1,0 +1,39 @@
+html{
+   box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before{
+   box-sizing: inherit;
+}
+
+a{
+   text-decoration: none;
+   color: inherit;
+}
+
+ul{
+   list-style-type: none;
+}
+
+button{
+   padding: 0;
+   border: none;
+   background-color: transparent;
+}
+
+.container{
+   max-width: 1075px;
+   margin: 0 auto;
+   padding: 0 16px;
+}
+
+body{
+   font-family: 'Inter', sans-serif;
+   color: #4C526A;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 172%;
+   /* font-family: 'Poppins', sans-serif; */
+}
