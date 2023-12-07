@@ -23,10 +23,14 @@ button{
    background-color: transparent;
 }
 
+input{
+   border: none;
+}
+
 .container{
-   max-width: 1075px;
+   max-width: 1043px;
    margin: 0 auto;
-   padding: 0 16px;
+   /* padding: 0 16px; */
 }
 
 body{
@@ -36,4 +40,118 @@ body{
    font-weight: 500;
    line-height: 172%;
    /* font-family: 'Poppins', sans-serif; */
+}
+
+.header{
+   background-image: url(../images/header-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   height: 650px;
+   margin-bottom: 60px;
+}
+
+.header__inner{
+   border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+   margin-bottom: 95px;
+}
+
+.header__inner .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+
+.nav{
+   display: flex;
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+}
+
+.menu__item.active{
+   color: #fff;
+}
+
+.menu__list{
+   display: flex;
+   gap: 36px;
+   font-size: 14px;
+   letter-spacing: -0.14px;
+   color: rgba(255, 255, 255, 0.6);
+   margin-right: 55px;
+}
+
+.header__btn{
+   padding: 10px 20px;
+   background-color: #0432DF;
+   color: #fff;
+   border-radius: 8px;
+}
+
+.hero{
+   text-align: center;
+   color: #EEEEEE;
+}
+
+.hero__title{
+   font-family: 'Poppins', sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 146%;
+   letter-spacing: -0.72px;
+   margin-bottom: 16px;
+}
+
+.hero__desc{
+   color: #ACAFB8;
+   font-size: 20px;
+   letter-spacing: -1px;
+   line-height: 170%;
+   margin-bottom: 51px;
+}
+
+.hero__search{
+   display: block;
+   margin: 0 auto;
+   width: 600px;
+   padding: 16px 10px 15px 54px;
+   border-radius: 8px;
+   margin-bottom: 10px;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   color: #000;
+   line-height: 180%;
+}
+
+.hero__search::placeholder{
+   font-size: 16px;
+   line-height: 180%;
+}
+
+.hero__form{
+   position: relative;
+   width: 600px;
+   margin: 0 auto;
+   margin-bottom: 51px;
+}
+
+.search__icon::before{
+   content: '';
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   top: 18px;
+   left: 20px;
+   background-image: url(../images/search-icon.svg);
+}
+
+.hero__search-desc{
+   text-align: left;
+   letter-spacing: -0.7px;
+   font-weight: 400;
+}
+
+.hero__meta-link{
+   text-decoration: underline;
 }
